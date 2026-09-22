@@ -8,7 +8,13 @@ namespace DemoApp_09_22
     {
         public void Run()
         {
-            Console.WriteLine("Elev 2 jobbar här");
+            Console.WriteLine("Mata in en siffra");
+            int number1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Mata in en till siffra");
+            int number2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(number1 * number2);
         }
     }
 }

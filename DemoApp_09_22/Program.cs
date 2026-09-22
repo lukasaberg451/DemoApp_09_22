@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             //Skapar objekten
-           AgeChecker ageChecker = new AgeChecker();
+           AgeChecker ageChecker = new AgeChecker("Kristin", 40);
             Calculator calculator = new Calculator();
             FtillC fTILLc = new FtillC();
 
