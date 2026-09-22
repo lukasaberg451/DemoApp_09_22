@@ -7,6 +7,7 @@
             //Skapar objekten
            AgeChecker ageChecker = new AgeChecker();
             Calculator calculator = new Calculator();
+            FtillC fTILLc = new FtillC();
 
             bool running = true;
 
@@ -17,6 +18,7 @@
                 Console.WriteLine();
                 Console.WriteLine("1. Kolla åldern");
                 Console.WriteLine("2. Räkna med siffror");
+                Console.WriteLine("3. Omvandla celsius till fahrenheit och tvärt om.");
                 Console.WriteLine();
 
                 Console.Write("Välj, använd 0 för att avsluta: ");
@@ -30,6 +32,9 @@
 
                     case "2":
                         calculator.Run();
+                        break;
+                    case "3":
+                        fTILLc.Run();
                         break;
 
                     case "0":
