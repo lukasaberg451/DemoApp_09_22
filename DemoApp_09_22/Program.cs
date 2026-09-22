@@ -37,9 +37,18 @@
                         fTILLc.Run();
                         break;
 
+                    case "5":
+                        colorChange.Run();
+                        break;
+
                     case "0":
                         running = false;
                         break;
+
+                    
+                    
+                    
+                    
 
                     default:
                         Console.WriteLine("Felaktig inmatning");
