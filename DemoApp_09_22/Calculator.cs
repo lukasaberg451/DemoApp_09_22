@@ -6,9 +6,9 @@ namespace DemoApp_09_22
 {
     internal class Calculator
     {
-        public void Run()
+        public void Run(string userInput)
         {
-            Console.WriteLine("Elev 2 jobbar här");
+            
         }
     }
 }
