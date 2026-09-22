@@ -42,7 +42,7 @@
 
                 }
                 Console.WriteLine();
-                Console.WriteLine("Välj en funktion från verktygslådan");
+                Console.WriteLine("Välj en funktion från verktygslådan.");
                 Console.ReadKey();
             }
         }
