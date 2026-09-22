@@ -7,6 +7,7 @@
             //Skapar objekten
            AgeChecker ageChecker = new AgeChecker();
             Calculator calculator = new Calculator();
+            ColorChange colorChange = new ColorChange();
 
             bool running = true;
 
@@ -17,6 +18,7 @@
                 Console.WriteLine();
                 Console.WriteLine("1. Kolla åldern");
                 Console.WriteLine("2. Räkna med siffror");
+                Console.WriteLine("5. Ändra färg");
                 Console.WriteLine();
 
                 Console.Write("Välj, använd 0 för att avsluta: ");
@@ -32,9 +34,18 @@
                         calculator.Run();
                         break;
 
+                    case "5":
+                        colorChange.Run();
+                        break;
+
                     case "0":
                         running = false;
                         break;
+
+                    
+                    
+                    
+                    
 
                     default:
                         Console.WriteLine("Felaktig inmatning");
